@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card-cadastro {
+    background-color: aquamarine;
+    margin: 100px;
+    padding: 200px;
+    align-items: center;
+    
+}
+
+#nome{
+    margin: 5px;
+    border-radius: 3px;
+}
+
+#sobrenome {
+    margin: 5px;
+    border-radius: 3px;
+}
+
+#celular-ou-email {
+ margin: 5px;
+ border-radius: 3px;   
+}
+
+#senha {
+    margin: 5px;
+    border-radius: 3px;
+}
