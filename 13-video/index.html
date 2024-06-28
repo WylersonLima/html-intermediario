@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+</head>
+<body>
+    <h1>Videos locais</h1>
+    <!-- os videos e seus formatos precisam estar na pasta do projeto-->
+
+    <video src="caminho do video.mp4" width="350" height="200" controls autoplay loop
+    poster=""></video>
+
+    <p> <strong>controls</strong> para aplicar controles ao video, <strong>autoplay</strong> para reproduzir automaticamente, <strong>loop</strong> para o video ficar repetindo sua reprodução automaticamente e <strong>poster</strong> para usar uma thumb, imagem de abertura!</p>
+
+    <h2>Formatos de videos</h2>
+
+    <video controls>
+        <source src="caminho do video.mp4" type="video/mp4">
+        <source src="caminho do video.ogg" type="video/ogg">
+        <source src="caminho do video.webm" type="video/webm">
+
+        <p>esse navegador não tem suporte à tag video</p>
+    </video>
+
+    <h2>Videos Externos</h2>
+    <!-- Link incorporado diretamente do Youtube -->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sN6gCy3Ltsk?si=Fm50znII7xqX0TC_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+</body>
+</html>
